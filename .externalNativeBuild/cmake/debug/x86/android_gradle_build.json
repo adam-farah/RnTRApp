@@ -1,0 +1,41 @@
+{
+  "stringTable": {
+    "0": "C:/Users/alexi/Desktop/Creation/AppDev/RnTRApp/app/.externalNativeBuild/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android23 --gcc-toolchain=C:/Users/alexi/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/alexi/AppData/Local/Android/Sdk/ndk-bundle/sysroot -Dnative_lib_EXPORTS -isystem C:/Users/alexi/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/alexi/AppData/Local/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem C:/Users/alexi/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC",
+    "2": "-isystem C:/Users/alexi/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC  "
+  },
+  "buildFiles": [
+    "C:\\Users\\alexi\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\alexi\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\alexi\\Desktop\\Creation\\AppDev\\RnTRApp\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\alexi\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build C:\\Users\\alexi\\Desktop\\Creation\\AppDev\\RnTRApp\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+  ],
+  "libraries": {
+    "native-lib-Debug-x86": {
+      "buildCommand": "C:\\Users\\alexi\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build C:\\Users\\alexi\\Desktop\\Creation\\AppDev\\RnTRApp\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target native-lib",
+      "buildType": "debug",
+      "toolchain": "2478489700",
+      "abi": "x86",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "C:\\Users\\alexi\\Desktop\\Creation\\AppDev\\RnTRApp\\app\\src\\main\\cpp\\native-lib.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Users\\alexi\\Desktop\\Creation\\AppDev\\RnTRApp\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "2478489700": {
+      "cppCompilerExecutable": "C:\\Users\\alexi\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
