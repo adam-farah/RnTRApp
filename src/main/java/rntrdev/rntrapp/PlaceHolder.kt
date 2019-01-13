@@ -1,3 +1,5 @@
+//Copyright Alexi Kent 2019 RnTR/Rm8r
+
 package rntrdev.rntrapp
 
 import android.support.v7.app.AppCompatActivity
